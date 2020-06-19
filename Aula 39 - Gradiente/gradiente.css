@@ -1,0 +1,29 @@
+div {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    margin: 2em;
+    text-align: center;
+}
+
+.linear {
+    background: linear-gradient(#f69d3c, #3f87a6);
+}
+
+.radial {
+    background: radial-gradient(#f69d3c, #3f87a6);
+}
+
+.repeating-linear {
+    background: repeating-linear-gradient(#f69d3c, #3f87a6 50px);
+}
+
+.repeating-radial {
+    background: repeating-radial-gradient(#f69d3c, #3f87a6 50px);
+}
+
+.conic {
+    background: conic-gradient(#f69d3c, #3f87a6);
+}
+

@@ -1,0 +1,66 @@
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: salmon;
+    font-size: 1.5em;
+
+}
+
+nav.navegacao ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navegacao ul li {
+    float: left;
+    position: relative;
+}
+
+nav.navegacao > ul > li {
+    padding: 0.5em;
+    width: 200px;
+
+}
+
+nav.navegacao ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+nav.navegacao ul li ul {
+    display: none;
+    position: absolute;
+    top: 2.1em;
+
+}
+
+nav.navegacao ul li ul {
+    /*width:100%;*/
+    background-color: #AD4A3E;
+    margin-left: -0.5em;
+
+}
+
+nav.navegacao ul li ul li {
+    border-top: 2px solid white;
+    width: 100%;
+    padding: 0.5em;
+}
+
+nav.navegacao ul li:hover ul {
+    display: block;
+}
+
+.menu_principal > li {
+    display: inline;
+    border-left: 2px solid white;
+    padding-left: 0.5em;
+    margin: 0;
+}
+
+.menu_principal > li:hover {
+    background-color: #AD4A3E;
+}

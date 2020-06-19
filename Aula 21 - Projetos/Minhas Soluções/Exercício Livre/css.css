@@ -1,0 +1,94 @@
+body {
+    font-family: 'Mansalva', cursive;
+    background-color: #D7C1E8;
+}
+
+.intro {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 0 5px rgba(51, 51, 51, 0.5), -5px 0 5px rgba(51, 51, 51, 0.5);
+    background-color: #FFF;
+    padding: 2em 0;
+}
+
+img.teclado {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe.training_video {
+    width: 50%;
+    min-width: 560px;
+    min-height: 315px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #FDF2CD;
+    border-radius: 5px;
+}
+
+blockquote {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: antiquewhite;
+    border-radius: 5px;
+
+}
+
+header {
+    font-size: 1.2em;
+    text-align: center;
+
+}
+
+table {
+    border: 2px solid #6e09e2;
+    text-align: center;
+    width: 50%;
+    caption-side: bottom;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption.small {
+    font-size: 0.5em;
+}
+
+thead {
+    background-color: #09C1F9;
+}
+
+td {
+    border: 1px solid #000000;
+}
+
+.info {
+
+    background-color: rgba(110, 9, 226, 0.3);
+}
+
+.notas {
+    font-size: 100px;
+
+}
+
+h1, h2 {
+    color: #B902FA;
+}
